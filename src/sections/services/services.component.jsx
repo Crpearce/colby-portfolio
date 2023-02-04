@@ -1,5 +1,5 @@
-import data from './data';
-import Card from '../../components/card/card.component';
+import data from "./data";
+import Card from "../../components/card/card.component";
 import "./services.styles.css";
 
 const Services = () => {
@@ -7,16 +7,16 @@ const Services = () => {
     <section id="services">
       <h2>My Services</h2>
       <p> I give you my best in all the services below</p>
-      <div className='container services__container'>
-        {
-          data.map(item => <Card key={item.id} className='service light'>
-            <div className='service__icon'>{item.icon}</div>
-            <div className='service__details'>
+      <div className="container services__container">
+        {data.map((item) => (
+          <Card key={item.id} className="service light">
+            <div className="service__icon">{item.icon}</div>
+            <div className="service__details">
               <h4>{item.title}</h4>
               <p>{item.desc}</p>
             </div>
-          </Card> )
-        }
+          </Card>
+        ))}
       </div>
     </section>
   );
