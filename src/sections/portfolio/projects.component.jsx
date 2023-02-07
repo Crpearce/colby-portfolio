@@ -1,15 +1,13 @@
 import Project from "./project.component";
 
 const Projects = ({ projects }) => {
-    return (
-        <div className="portfolio__projects">
-            {
-                projects.map(project => (
-                    <Project key={project.id} project={project}/>
-                ))
-            }
-        </div>
-    );
-}
+  return (
+    <div className="portfolio__projects">
+      {projects.map((project) => (
+        <Project key={project.id} project={project} />
+      ))}
+    </div>
+  );
+};
 
 export default Projects;
