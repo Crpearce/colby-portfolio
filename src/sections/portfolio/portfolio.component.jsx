@@ -6,17 +6,19 @@ import { useState } from "react";
 
 const Portfolio = () => {
   const [projects, setProjects] = useState(data);
-  const categories = data.map(item => item.category);
-  const uniqueCategories = ["all", ...new Set(categories)]
+  const categories = data.map((item) => item.category);
+  const uniqueCategories = ["all", ...new Set(categories)];
 
   const filterProjectsHandler = (category) => {
-    if(category === 'all') {
+    if (category === "all") {
       setProjects(data);
       return;
     }
-    const filterProjects = data.filter(project => project.category === category)
+    const filterProjects = data.filter(
+      (project) => project.category === category
+    );
     setProjects(filterProjects);
-  }
+  };
 
   return (
     <section id="portfolio">
@@ -26,8 +28,11 @@ const Portfolio = () => {
         buttons to toggle different categories.
       </p>
       <div className="container portfolio__container">
-        <ProjectCategories categories={uniqueCategories} onFilterProjects={filterProjectsHandler}/>
-        <Projects projects={projects}/>
+        <ProjectCategories
+          categories={uniqueCategories}
+          onFilterProjects={filterProjectsHandler}
+        />
+        <Projects projects={projects} />
       </div>
     </section>
   );
