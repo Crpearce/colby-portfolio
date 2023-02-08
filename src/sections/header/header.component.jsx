@@ -11,7 +11,7 @@ const Header = () => {
         </div>
         <h2>Hey there -- I'm Colby.</h2>
         <br></br>
-        <h4>A Front-End Software Developer. Based in Colorado.</h4>
+        <h4 className="colored-detail">Front-End Software Developer. Based in Colorado.</h4>
         <p>
           I specialize in JavaScript, CSS, HTML and React. I enjoy and welcome
           fast-paced, team-centric environments. Get in touch, and let's get
