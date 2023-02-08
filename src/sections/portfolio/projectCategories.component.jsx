@@ -16,7 +16,7 @@ const ProjectCategories = ({ categories, onFilterProjects }) => {
           category={category}
           onChangeCategory={() => changeCategoryHandler(category)}
           className={`btn cat__btn ${
-            activeCategory == category ? "primary" : "white"
+            activeCategory === category ? "primary" : "white"
           }`}
         />
       ))}

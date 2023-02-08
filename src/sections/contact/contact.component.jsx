@@ -6,7 +6,7 @@ const Contact = () => {
     <section id="contact">
       <h2>Get In Touch</h2>
       <p>
-        Shoot me a message via any of the links below!
+      I'm passionate about technology and feel that I have something to offer the industry. I look forward to taking a junior position with a company that will allow me to continue to learn new technologies while building upon my existing strengths in a team environment.
       </p>
       <div className="container contact__container">
         {

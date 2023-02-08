@@ -9,13 +9,23 @@ const Header = () => {
         <div className="header-profile">
           <img src={HeaderImage} alt="Selfie with dog" />
         </div>
-        <h3>Colby Pearce</h3>
+        <h2>Hey there -- I'm Colby.</h2>
+        <br></br>
+        <h4>A Front-End Software Developer. Based in Colorado.</h4>
         <p>
-          Here is where I will put a phrase or saying welcoming someone to the app
+          I specialize in JavaScript, CSS, HTML and React. I enjoy and welcome
+          fast-paced, team-centric environments. Get in touch, and let's get
+          started.{" "}
         </p>
         <div className="header-cta">
-          <a href="#contact" className="btn primary"> Let's Talk! </a>
-          <a href="#portfolio" className="btn light"> My Work </a>
+          <a href="#contact" className="btn primary">
+            {" "}
+            Let's Talk!{" "}
+          </a>
+          <a href="#portfolio" className="btn light">
+            {" "}
+            My Work{" "}
+          </a>
         </div>
         <div className="header-socials">
           {data.map((item) => (
