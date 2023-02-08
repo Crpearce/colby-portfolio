@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <section id="services">
       <h2>My Services</h2>
-      <p> I give you my best in all the services below</p>
+      {/* <p></p> */}
       <div className="container services__container">
         {data.map((item) => (
           <Card key={item.id} className="service light">

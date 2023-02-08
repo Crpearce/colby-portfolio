@@ -1,7 +1,9 @@
 import Logo from "../../assets/name-logo.png";
 import data from "./data";
 
-import {AiOutlineBgColors} from 'react-icons/ai';
+import {MdOutlineColorLens} from 'react-icons/md';
+
+
 
 import "./navbar.styles.css";
 
@@ -19,7 +21,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <button id='theme-icon'><AiOutlineBgColors /></button>
+        <button id='theme-icon'><MdOutlineColorLens /></button>
       </div>
     </nav>
   );

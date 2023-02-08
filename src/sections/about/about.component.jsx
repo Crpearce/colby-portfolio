@@ -28,21 +28,11 @@ const About = () => {
             }
           </div>
           <p>
-            Building projects building projects projects building projects
-            projects building projects projects building projects projects
-            building projects projects building projects projects building
-            projects projects building projects projects building projects
+          In early 2022 I decided to make a life change. I left my established career in Supply Chain to start fresh in the Tech industry. Over the past year, I've dedicated over 80 hrs per week towards earning my certificate as a Front End Developer from Turing School of Software and Design. 
           </p>
-          <p>
-            Building projects building projects projects building projects
-            projects building projects projects building projects projects
-            building projects projects building projects projects building
-            projects projects building projects projects building projects
-            Building projects building projects projects building projects
-            projects building projects projects building projects projects
-            building projects projects building projects projects building
-            projects projects building projects projects building projects
+          <p>I have a diverse work history that includes cooking in some of Denver's top restaurants, wholesale food production, inventory data analysis, and numerous buyer roles. 
           </p>
+          <p>In the past eight years I spent in Supply Chain I worked as a Buyer and Category Analyst. I developed strong problem solving, multi-tasking and collaboration skills. Think having to make decisions on the fly as new information presents itself in an often-changing environment. That was my experience in wholesale food production and I believe that experience will set me up for success as a Developer. </p>
           <a href={CV} download className="btn primary"> Download Resume <AiOutlineCloudDownload/></a>
         </div>
       </div>
