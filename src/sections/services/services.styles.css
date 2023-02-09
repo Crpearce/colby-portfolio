@@ -19,15 +19,22 @@
     transition: var(--transition);
 }
 
+.card.service:hover {
+    background: #465362;
+    color: #82A3A1;
+}
+
 .service:hover .service__icon {
     background: var(--color-light);
     color: var(--color-primary);
+}
+.card.service:hover h4 {
+    color:#9FC490;
 }
 
 .service h4 {
     margin-bottom: 0.7rem;
 }
-
 
 
 /* MEDIA QUERIES (tablets) */

@@ -25,8 +25,8 @@ const data = [
   {
     id: 4,
     icon: <AiFillAppstore />,
-    title: "App Development",
-    desc: "Unlike other developers in the market, I will building an app that runs on both IOS and Android devices without any extra cost to you.",
+    title: "Tech Stack",
+    desc: " JavaScript / React / HTML5 / CSS3 / Cypress / GraphQL / Express.js / PostgreSQL / Knex.js",
   },
 ];
 
