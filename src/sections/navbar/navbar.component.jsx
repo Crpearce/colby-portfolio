@@ -1,9 +1,6 @@
-import Logo from "../../assets/name-logo.png";
 import data from "./data";
-
-import {MdOutlineColorLens} from 'react-icons/md';
-
-
+import { BsLightbulb } from "react-icons/bs";
+import { AiOutlineHome } from "react-icons/ai";
 
 import "./navbar.styles.css";
 
@@ -11,9 +8,9 @@ const Navbar = () => {
   return (
     <nav>
       <div className="container nav-container">
-        <a href="index.html" className="nav-logo">
-          <img src={Logo} alt="Logo" />
-        </a>
+        <button className="nav-logo">
+          <AiOutlineHome  className='logo'/>
+        </button>
         <ul className="nav-menu">
           {data.map((category) => (
             <li key={category.id}>
@@ -21,7 +18,9 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <button id='theme-icon'><MdOutlineColorLens /></button>
+        <button id="theme-icon">
+          <BsLightbulb className='bulb'/>
+        </button>
       </div>
     </nav>
   );

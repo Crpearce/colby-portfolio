@@ -6,8 +6,8 @@ import "./services.styles.css";
 
 const Services = () => {
   return (
-    <section id="services" style={{ backgroundImage: `url(${Longs})`, backgroundRepeat: 'no-repeat', height:'80vh' }}>
-      <h2>Services and Tech Stack</h2>
+    <section id="services" style={{ backgroundImage: `url(${Longs})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
+      <h2 className='service-tag'>Services and Tech Stack</h2>
       <br/>
       <div className="container services__container">
         {data.map((item) => (

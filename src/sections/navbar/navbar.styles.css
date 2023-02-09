@@ -20,8 +20,7 @@ nav {
 
 .nav-logo {
     width: 2.5rem;
-    border-radius: 50%;
-    overflow: hidden;
+    background-color: var(--color-primary);
 }
 
 .nav-menu {
@@ -30,14 +29,28 @@ nav {
 }
 
 .theme-icon {
-    background: transparent;
+    background-color: var(--color-primary);
     color: white;
     font-size: 2rem;
     cursor: pointer;
 }
 
 a:hover {
-    color:#9FC490;
+    color: #82A3A1;
+
+}
+
+.bulb {
+    color: #9FC490;
+    background-color: var(--color-primary);
+    width: 3vw;
+    height: 3vh;
+}
+
+.logo{
+    width: 5vw;
+    height: 3vh;
+    color: #9FC490;
 }
 
 @media screen and (max-width: 1024px){

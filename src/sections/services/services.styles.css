@@ -8,6 +8,7 @@
     display: flex;
     align-items: flex-start;
     gap: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .service__icon {
@@ -15,13 +16,17 @@
     padding: 0.6rem;
     border-radius: var(--border-radius-3);
     font-size: 1.5rem;
-    color: var(--color-white);
+    color:#9FC490;
     transition: var(--transition);
 }
 
 .card.service:hover {
     background: #465362;
     color: #82A3A1;
+    
+}
+.service-tag {
+    color: #465362;
 }
 
 .service:hover .service__icon {
@@ -35,7 +40,6 @@
 .service h4 {
     margin-bottom: 0.7rem;
 }
-
 
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {

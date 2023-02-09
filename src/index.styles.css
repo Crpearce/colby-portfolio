@@ -133,7 +133,6 @@ img {
 
 .btn:hover {
     background-color: #82A3A1;
-    ;
     border-color: var(--color-light);
     transform: translateY(-0.5rem);
 }
@@ -162,8 +161,6 @@ img {
 .btn.sm {
     padding: 0.5rem 1.2rem;
 }
-
-
 
 
 /* MEDIA QUERIES (tablets) */
