@@ -58,6 +58,9 @@ header {
     color: var(--color-white);
     transform: translateX(-0.5rem);
 }
+.colored-detail {
+    color: #82A3A1;
+}
 
 
 /* MEDIA QUERIES (tablets) */
