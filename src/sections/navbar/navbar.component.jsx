@@ -8,9 +8,9 @@ const Navbar = () => {
   return (
     <nav>
       <div className="container nav-container">
-        <button className="nav-logo">
-          <AiOutlineHome  className='logo'/>
-        </button>
+        <a href="index.html" className="nav__logo" aria-label='link to home'>
+          <AiOutlineHome className="logo" />
+        </a>
         <ul className="nav-menu">
           {data.map((category) => (
             <li key={category.id}>
@@ -18,9 +18,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <button id="theme-icon">
-          <BsLightbulb className='bulb'/>
-        </button>
+        <button id="theme-icon" aria-label='darkmode toggle'><BsLightbulb className="bulb"/></button>
       </div>
     </nav>
   );

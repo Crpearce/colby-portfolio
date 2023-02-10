@@ -1,10 +1,11 @@
-import { GrGroup } from 'react-icons/gr';
+import { FaReact } from 'react-icons/fa';
 import { GiBrain } from 'react-icons/gi';
+import { MdSchool } from 'react-icons/md';
 
 const data = [
-    {id: 1, icon: <GrGroup />, title: 'Projects', desc: '20+ completed'},
-    {id: 2, icon: <GiBrain />, title: 'Experience', desc: '1 year'},
-    {id: 3, icon: <GiBrain />, title: 'something else', desc: 'something else'},
+    {id: 1, icon: <FaReact />, title: 'Projects', desc: 'Over 20 projects completed in the past year. Solo, paired, group, and full stack dev teams.'},
+    {id: 2, icon: <GiBrain />, title: 'Experience', desc: '1 year dedicated experience, over 2200 hours learning and implementing over the past 10 months.'},
+    {id: 3, icon: <MdSchool />, title: 'Lifelong Education', desc: 'Liberal Arts- Colorado State(2013), Culinary Arts- Johnson and Wales(2017), Front End Web Development- Turing School of Software & Design(2023)'},
 
 ];
 

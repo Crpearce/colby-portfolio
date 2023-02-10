@@ -59,7 +59,15 @@ header {
     transform: translateX(-0.5rem);
 }
 .colored-detail {
-    color: #82A3A1;
+    color:#465362;
+}
+
+.greeting {
+    color: var(--color-primary);
+}
+
+.btn:hover {
+    color:var(--color-primary)
 }
 
 

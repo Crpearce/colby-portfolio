@@ -1,12 +1,12 @@
 import data from "./data";
 import Card from "../../components/card/card.component";
-import Longs from "../../assets/EPC.jpeg";
+import EPC from "../../assets/EPC.jpeg";
 
 import "./services.styles.css";
 
 const Services = () => {
   return (
-    <section id="services" style={{ backgroundImage: `url(${Longs})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
+    <section id="services" style={{ backgroundImage: `url(${EPC})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize:'cover' }}>
       <h2 className='service-tag'>Services and Tech Stack</h2>
       <br/>
       <div className="container services__container">
