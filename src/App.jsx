@@ -6,6 +6,7 @@ import Portfolio from "./sections/portfolio/portfolio.component";
 // import FAQs from './sections/faqs/faqs.component';
 import Contact from './sections/contact/contact.component';
 import Footer from './sections/footer/footer.component';
+import Modal from "./components/modal/modal.component";
 // import FloatingNav from './sections/floatingNav/floatingNav.component';
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
             {/* <FAQs /> */}
             <Contact />
             <Footer />
+            {/* <Modal /> */}
             {/* <FloatingNav /> */}
         </main>
     );
