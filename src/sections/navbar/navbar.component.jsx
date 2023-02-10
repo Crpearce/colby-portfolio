@@ -1,5 +1,5 @@
 import data from "./data";
-import { BsLightbulb } from "react-icons/bs";
+import { MdOutlineDarkMode } from "react-icons/md";
 import { AiOutlineHome } from "react-icons/ai";
 
 import "./navbar.styles.css";
@@ -18,7 +18,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <button id="theme-icon" aria-label='darkmode toggle'><BsLightbulb className="bulb"/></button>
+        <button id="theme-icon" aria-label='darkmode toggle'><MdOutlineDarkMode className="moon"/></button>
       </div>
     </nav>
   );
