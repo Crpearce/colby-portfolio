@@ -6,12 +6,14 @@ import Portfolio from "./sections/portfolio/portfolio.component";
 // import FAQs from './sections/faqs/faqs.component';
 import Contact from './sections/contact/contact.component';
 import Footer from './sections/footer/footer.component';
-import Modal from "./components/modal/modal.component";
 // import FloatingNav from './sections/floatingNav/floatingNav.component';
+import Theme from './themes/theme.component';
+import { useThemeContext } from './contexts/theme.context';
 
 const App = () => {
+    const {themeState} = useThemeContext();
     return (
-        <main>
+        <main className={`${themeState.primary} ${themeState.background}`}>
             <Navbar />
             <Header />
             <About />
@@ -20,7 +22,7 @@ const App = () => {
             {/* <FAQs /> */}
             <Contact />
             <Footer />
-            {/* <Modal /> */}
+            <Theme />
             {/* <FloatingNav /> */}
         </main>
     );

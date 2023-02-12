@@ -18,8 +18,8 @@ const Header = () => {
         </h4>
         <p>
           I specialize in JavaScript, CSS, HTML and React. I enjoy and welcome
-          fast-paced, team-centric environments and I am passionate
-          about creating accessible and intuitive interfaces. Get in touch!
+          fast-paced, team-centric environments, and I am passionate
+          about creating accessible and intuitive interfaces.
         </p>
         <div className="header-cta">
           <a href="#contact" className="btn primary">
@@ -27,9 +27,6 @@ const Header = () => {
           </a>
           <a href="#portfolio" className="btn">
             My Work
-          </a>
-          <a href={CV} download className="btn primary">
-          Resume<AiOutlineCloudDownload />
           </a>
         </div>
         <div className="header-socials">
