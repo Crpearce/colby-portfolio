@@ -1,11 +1,17 @@
-import AboutImage from "../../assets/about.jpg";
+import { useEffect } from "react";
 import CV from "../../assets/resume.pdf";
 import Card from "../../components/card/card.component";
-import { AiOutlineCloudDownload } from "react-icons/ai";
 import data from './data'
+import AOS from 'aos'
+import AboutImage from "../../assets/about.jpg";
+import { AiOutlineCloudDownload } from "react-icons/ai";
+import 'aos/dist/aos.css'
 import "./about.styles.css";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({duration: 2000})
+  },[])
   return (
     <section id="about">
       <div className="container about__container">
@@ -16,7 +22,7 @@ const About = () => {
         </div>
         <div className="about__right">
           <h2>About Me</h2>
-          <div className="about__cards">
+          <div className="about__cards" data-aos='flip-right'>
             {
               data.map(item => (
                 <Card key={item.id} className='about__card'>
