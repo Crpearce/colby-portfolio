@@ -1,10 +1,11 @@
 import data from "./data";
 import { MdOutlineDarkMode } from "react-icons/md";
 import { AiOutlineHome } from "react-icons/ai";
-
+import { useModalContext } from "../../contexts/modal.context";
 import "./navbar.styles.css";
 
 const Navbar = () => {
+  const {showModalHandler} = useModalContext();
   return (
     <nav>
       <div className="container nav-container">
@@ -18,7 +19,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <button id="theme-icon" aria-label='darkmode toggle'><MdOutlineDarkMode className="moon"/></button>
+        <button id="theme-icon" aria-label='darkmode toggle' onClick={showModalHandler}><MdOutlineDarkMode className="moon"/></button>
       </div>
     </nav>
   );
