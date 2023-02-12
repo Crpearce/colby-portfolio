@@ -1,27 +1,32 @@
+import { useEffect } from "react";
 import HeaderImage from "../../assets/header.jpg";
 import data from "./data";
-import "./header.styles.css";
-import CV from "../../assets/resume.pdf";
-import { AiOutlineCloudDownload } from "react-icons/ai";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import './header.styles.css';
 
 const Header = () => {
+  useEffect(() => {
+    AOS.init({duration: 2000})
+  },[])
+
   return (
     <header id="header">
       <div className="container header-container">
-        <div className="header-profile">
+        <div className="header-profile" data-aos='fade-in'>
           <img src={HeaderImage} alt="Selfie with dog" />
         </div>
-        <h2 className="greeting">Welcome! I'm Colby.</h2>
+        <h2 className="greeting" data-aos='fade-up'>Welcome! I'm Colby.</h2>
         <br></br>
-        <h4 className="colored-detail">
+        <h4 className="colored-detail" data-aos='fade-up'>
           Front-End Software Developer. Based in Colorado.
         </h4>
-        <p>
+        <p data-aos='fade-up'>
           I specialize in JavaScript, CSS, HTML and React. I enjoy and welcome
           fast-paced, team-centric environments, and I am passionate
           about creating accessible and intuitive interfaces.
         </p>
-        <div className="header-cta">
+        <div className="header-cta" data-aos='fade-up'>
           <a href="#contact" className="btn primary">
             Let's Talk!
           </a>
