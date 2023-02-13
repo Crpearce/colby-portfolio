@@ -8,8 +8,8 @@ nav {
     top: 0;
     left: 0;
     z-index: 9;
-    box-shadow: 0 1rem 1.5rem hsla(var(--primary-hue), 68%, 42%, 20%);
-    transition: var(--transition)
+    box-shadow: 0 1rem 1.5rem var(--primary-hue);
+    transition: var(--transition);
 }
 
 .nav-container {
@@ -36,12 +36,11 @@ nav {
 }
 
 a:hover {
-    color: #82A3A1;
-
+    color: var(--color-hover)
 }
 
 .moon {
-    color: #9FC490;
+    color: var(--color-accent);
     background-color: var(--color-primary);
     width: 3vw;
     height: 3vh;
@@ -50,7 +49,7 @@ a:hover {
 .logo{
     width: 5vw;
     height: 3vh;
-    color: #9FC490;
+    color: var(--color-accent)
 }
 
 @media screen and (max-width: 1024px){

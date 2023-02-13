@@ -19,6 +19,11 @@
     --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
     --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
     --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+    --color-accent: #9FC490;
+    --color-hover: #82A3A1;
+    --color-text: #656a6f;
+    --color-sub: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+
 
     /* GENERAL CONTAINER VARIABLES */
     --container-width-lg: 76%;
@@ -45,9 +50,17 @@ body {
 
 main.color-1 {
     --color-primary: #011936;
+    
 }
 main.color-2 {
-    --color-primary:#313638;
+    --color-primary:#202C39;
+    --color-accent: #F29559;
+    --color-white: #283845;
+    --color-hover: #F29559;
+    --color-sub:#F2D492;
+    --color-text: #B8B08D;
+    --color-light:#202C39;
+
 }
 
 main {
@@ -98,7 +111,7 @@ section > p {
 
 /* GENERAL SECTION STYLES */
 a {
-    color: var(--color-white);
+    color: var(--color-text);
     transition: var(--transition);
 }
 
@@ -146,18 +159,19 @@ img {
     display: flex;
     align-items: center;
     gap: 1rem;
-    background: var(--color-light);
-    color: var(--color-black);
+    background: var(--color-accent);
+    color: var(--color-primary);
     padding: 0.6rem 2.5rem;
-    border: 2px solid transparent;
+    border: 2px solid var(--color-text);
     border-radius: var(--border-radius-2);
     cursor: pointer;
 }
 
 .btn:hover {
-    background-color: #82A3A1;
-    border-color: var(--color-light);
+    background-color: var(--color-text);
+    border-color: var(--color-accent);
     transform: translateY(-0.5rem);
+    color: var(--color-primary);
 }
 
 .btn.white {
@@ -167,6 +181,7 @@ img {
 .btn.white:hover {
     background: transparent;
     border-color: var(--color-white);
+    color: var(--color-accent);
 }
 
 .btn.primary {
@@ -176,8 +191,8 @@ img {
 
 .btn.primary:hover {
     background: transparent;
-    border-color: var(--color-primary);
-    color: var(--color-primary);
+    border-color: var(--color-text);
+    color: var(--color-text);
 }
 
 .btn.sm {

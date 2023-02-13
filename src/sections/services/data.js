@@ -8,13 +8,13 @@ const data = [
     id: 1,
     icon: <SiAdobexd />,
     title: "UI/UX Design",
-    desc: "My designs are modern and intuitive. I use industry-standard rules to make sure your users have fun using your product.",
+    desc: "Modern, intutive, accessibility focuesed designs. I use industry-standard rules to make sure ALL users can enjoy using a product.",
   },
   {
     id: 2,
     icon: <RiReactjsLine />,
     title: "Frontend Development",
-    desc: "Your product will look good and will be accessible on all devices, including mobile phones, tablets, and desktop.",
+    desc: "Your product will look good and will be accessible on all devices by using media queries to adjust component layout on mobile phones, tablets, and desktop.",
   },
   {
     id: 3,
