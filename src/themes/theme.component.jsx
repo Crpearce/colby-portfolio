@@ -1,7 +1,7 @@
 import Modal from "../components/modal/modal.component";
 import { primaryColors, backgroundColors } from "./data";
 import PrimaryColor from "./primaryColor.component";
-import BackgroundColor from "./backgroundColor.component";
+// import BackgroundColor from "./backgroundColor.component";
 import './theme.styles.css'
 
 const Theme = () => {
@@ -16,14 +16,14 @@ const Theme = () => {
                   }
               </div>
           </div>
-          <div className="theme__background-wrapper">
+          {/* <div className="theme__background-wrapper">
               <h5>Background Color</h5>
               <div className="theme__background-colors">
                   {
                       backgroundColors.map(bColor => <BackgroundColor key={bColor.className} className={bColor.className} />)
                   }
               </div>
-          </div>
+          </div> */}
       </Modal>
     )
   }
