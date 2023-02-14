@@ -26,7 +26,7 @@ const data = [
     id: 4,
     icon: <AiFillAppstore />,
     title: "Tech Stack",
-    desc: "JavaScript / React / HTML5 / CSS3 / Cypress / GraphQL / Express.js / PostgreSQL / Knex.js / Mocha / Chai,
+    desc: "JavaScript / React / HTML5 / CSS3 / Cypress / GraphQL / Express.js / PostgreSQL / Knex.js / Mocha / Chai",
   },
 ];
 
