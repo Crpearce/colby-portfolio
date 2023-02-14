@@ -17,7 +17,6 @@
     color: var(--color-dark);
 }
 
-
 .portfolio__projects {
     margin-top: 3rem;
     display: grid;
@@ -70,7 +69,6 @@
 }
 
 
-/* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
     .portfolio__projects {
         grid-template-columns: 1fr 1fr;
@@ -79,7 +77,6 @@
 }
 
 
-/* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {
     .portfolio__categories {
         gap: 0.6rem;

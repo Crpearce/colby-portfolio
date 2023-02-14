@@ -22,8 +22,6 @@
 
 .card.service:hover {
     background: #465362;
-    /* color: #82A3A1; */
-    
 }
 
 .service-tag {
@@ -36,27 +34,24 @@
 }
 
 .card.service:hover h4 {
-    color: var(--color-sub);
+    color: white;
 }
 
 .service h4 {
     margin-bottom: 0.7rem;
-    color: var(--color-accent);
+    color: var(--color-text);
 }
 
 .card.service:hover p {
     color: var(--color-accent);
 }
 
-/* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
     .services__container {
         gap: 1.5rem;
     }
 }
 
-
-/* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {
     .services__container {
         grid-template-columns: 1fr;

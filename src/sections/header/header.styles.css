@@ -15,6 +15,9 @@ header {
     position: relative;
 }
 
+.intro {
+    color: var(--color-text);
+}
 .header-profile {
     width: 18rem;
     height: 22rem;
@@ -61,19 +64,17 @@ header {
     transform: translateX(-0.5rem);
 }
 .colored-detail {
-    color: var(--color-sub);
+    color: var(--color-accent);
 }
 
 .greeting {
-    color: var(--color-accent);
+    color: var(--color-text);
 }
 
 .btn:hover {
     color:var(--color-hover)
 }
 
-
-/* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
     header {
         margin-top: 0;
@@ -81,8 +82,6 @@ header {
     }
 }
 
-
-/* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 600px) {
     .header-profile {
         width: 14rem;

@@ -21,7 +21,7 @@ const Header = () => {
         <h4 className="colored-detail" data-aos='fade-up'>
           Front-End Software Developer. Based in Colorado.
         </h4>
-        <p data-aos='fade-up'>
+        <p className='intro' data-aos='fade-up'>
           I specialize in JavaScript, CSS, HTML and React. I enjoy and welcome
           fast-paced, team-centric environments, and I am passionate
           about creating accessible and intuitive interfaces.

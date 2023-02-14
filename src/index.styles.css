@@ -24,7 +24,6 @@
     --color-text: #656a6f;
     --color-sub: hsl(var(--primary-hue), 5%, var(--dark-lightness));
 
-
     /* GENERAL CONTAINER VARIABLES */
     --container-width-lg: 76%;
     --container-width-md: 90%;
@@ -112,7 +111,7 @@ section > p {
 
 /* GENERAL SECTION STYLES */
 a {
-    color: var(--color-text);
+    color: white;
     transition: var(--transition);
 }
 

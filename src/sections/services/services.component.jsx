@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import data from "./data";
 import Card from "../../components/card/card.component";
-import EPC from "../../assets/EPC.jpeg";
+import EPC from "../../assets/EPC.jpg";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import "./services.styles.css";
@@ -20,7 +20,7 @@ const Services = () => {
           <Card key={item.id} className="service light" >
             <div className="service__icon">{item.icon}</div>
             <div className="service__details">
-              <h4>{item.title}</h4>
+              <h4 className="service-title">{item.title}</h4>
               <p>{item.desc}</p>
             </div>
           </Card>
