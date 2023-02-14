@@ -63,9 +63,9 @@
 }
 
 .portfolio__project:hover .btn.sm.primary {
-    background: transparent;
-    color: var(--color-primary);
-    border-color: var(--color-primary);
+
+    color: var(--color-accent);
+    border-color: var(--color-hover);
 }
 
 
