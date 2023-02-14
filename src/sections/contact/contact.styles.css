@@ -24,6 +24,10 @@
     transform: translateY(-0.5rem);
 }
 
+.in-touch {
+    color:var(--color-text);
+}
+
 @media screen and (max-width: 600px) {
     .contact__container {
         gap: 1.5rem;
