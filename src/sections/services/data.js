@@ -20,7 +20,7 @@ const data = [
     id: 3,
     icon: <FaServer />,
     title: "Backend Development",
-    desc: "Although new to coding in general, I have completed multiple projects built with PostgreSQL. I look forward to the opportunity to continue to learn and grow in this area specifically",
+    desc: "Although new to coding in general, I have completed multiple projects built with PostgreSQL database. I look forward to the opportunity to continue to learn and grow in this area specifically.",
   },
   {
     id: 4,
