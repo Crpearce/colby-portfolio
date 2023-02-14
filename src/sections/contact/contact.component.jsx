@@ -10,7 +10,7 @@ const Contact = () => {
       </p>
       <div className="container contact__container">
         {
-          contacts.map(contact => <a key={contact.id} href={contact.link} target="_blank" rel="noopener noreferrer">{contact.icon}</a>)
+          contacts.map(contact => <a key={contact.id} href={contact.link} target="_blank" rel="noopener noreferrer" className='contact-link'>{contact.icon}</a>)
         }
       </div>
     </section>

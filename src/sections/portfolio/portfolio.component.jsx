@@ -22,7 +22,7 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio">
-      <h2>Recent Projects</h2>
+      <h2 className="recent">Recent Projects</h2>
       <p>
         Check out some of the projects I have recently been working on. Use the
         buttons to toggle different categories.

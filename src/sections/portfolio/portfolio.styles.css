@@ -13,6 +13,9 @@
 .btn.cat__btn:hover {
     transform: translateY(0);
 }
+.recent {
+    color: var(--color-dark);
+}
 
 
 .portfolio__projects {

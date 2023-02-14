@@ -176,12 +176,12 @@ img {
 }
 
 .btn.white {
-    background: var(--color-white);
+    background: var(--color-sub);
 }
 
 .btn.white:hover {
     background: transparent;
-    border-color: var(--color-white);
+    border-color: var(--color-dark);
     color: var(--color-accent);
 }
 
