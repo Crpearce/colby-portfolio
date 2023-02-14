@@ -16,29 +16,36 @@
     padding: 0.6rem;
     border-radius: var(--border-radius-3);
     font-size: 1.5rem;
-    color:#9FC490;
+    color: var(--color-accent);
     transition: var(--transition);
 }
 
 .card.service:hover {
     background: #465362;
-    color: #82A3A1;
+    /* color: #82A3A1; */
     
 }
+
 .service-tag {
-    color: #465362;
+    color: var(--color-primary);
 }
 
 .service:hover .service__icon {
     background: var(--color-light);
-    color: var(--color-primary);
+    color: var(--color-accent);
 }
+
 .card.service:hover h4 {
-    color:#9FC490;
+    color: var(--color-sub);
 }
 
 .service h4 {
     margin-bottom: 0.7rem;
+    color: var(--color-accent);
+}
+
+.card.service:hover p {
+    color: var(--color-accent);
 }
 
 /* MEDIA QUERIES (tablets) */

@@ -58,10 +58,11 @@ main.color-2 {
     --color-white: #283845;
     --color-hover: #F29559;
     --color-sub:#F2D492;
-    --color-text: #B8B08D;
+    --color-text: #F2D492;
     --color-light:#202C39;
 
 }
+
 
 main {
     color: var(--color-dark);
@@ -190,9 +191,9 @@ img {
 }
 
 .btn.primary:hover {
-    background: transparent;
+    background-color: var(--color-primary);
     border-color: var(--color-text);
-    color: var(--color-text);
+    color: var(--color-accent);
 }
 
 .btn.sm {
