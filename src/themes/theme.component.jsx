@@ -1,5 +1,5 @@
 import Modal from "../components/modal/modal.component";
-import { primaryColors, backgroundColors } from "./data";
+import { primaryColors } from "./data";
 import PrimaryColor from "./primaryColor.component";
 // import BackgroundColor from "./backgroundColor.component";
 import './theme.styles.css'
