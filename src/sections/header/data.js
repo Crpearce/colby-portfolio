@@ -5,16 +5,8 @@ import hawaii from "../../assets/hawaii.jpg";
 import fam from "../../assets/fam.jpg";
 import crater from "../../assets/crater.jpg";
 import header from "../../assets/header.jpg";
-import alaska from "../../assets/alaska.jpg";
 import fish from "../../assets/fish.jpg";
 import rmnp from "../../assets/rmnp.jpg";
-
-
-
-
-
-
-
 
 export const socials = [
   {
@@ -55,7 +47,7 @@ export const photos = [
   {
     id: 10,
     photo: fish,
-  }
+  },
 ];
 
 export default photos;
