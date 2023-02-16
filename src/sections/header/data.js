@@ -47,7 +47,7 @@ export const photos = [
   {
     id: 10,
     photo: fish,
-  },
+  }
 ];
 
 export default photos;
