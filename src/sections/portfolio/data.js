@@ -3,7 +3,7 @@ import Image2 from "../../assets/project2.jpg";
 import Image3 from "../../assets/project3.jpg";
 import Image4 from "../../assets/project4.jpg";
 import Image5 from "../../assets/project5.jpg";
-import Image6 from "../../assets/project6.jpg";
+import Image6 from "../../assets/project6.png";
 
 
 
