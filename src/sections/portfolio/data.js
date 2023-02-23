@@ -21,7 +21,7 @@ const data = [
     id: 2,
     category: "frontend",
     image: Image6,
-    title: "Play Dead(frontend)",
+    title: "Play Dead (frontend)",
     desc: "Solo timed challenge with E2E Cypress test suite.  Learn and implement Spotify OAuth and Spotify embedded player for randomized Albums. **NOTE- Due to Spotify developer terms of service, the deployed application will not be fully functionial unless your spotify account email has been added to the dashboard**",
     demo: "https://play-dead.vercel.app/#",
     github: "https://github.com/Crpearce/Play-Dead"
@@ -30,7 +30,7 @@ const data = [
     id: 3,
     category: "frontend",
     image: Image2,
-    title: "Rancid Tomatillos(frontend)",
+    title: "Rancid Tomatillos (frontend)",
     desc: "My first paired project in React.  This was a 1 week challenge to complete with an assigned partner.  ",
     demo: "https://rancid-tomatillos-ffsors7w3-crpearce.vercel.app/",
     github: "https://github.com/Crpearce/Rancid-Tomatillos/blob/main/README.md",
