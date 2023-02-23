@@ -3,6 +3,8 @@ import Image2 from "../../assets/project2.jpg";
 import Image3 from "../../assets/project3.jpg";
 import Image4 from "../../assets/project4.jpg";
 import Image5 from "../../assets/project5.jpg";
+import Image6 from "../../assets/project6.jpg";
+
 
 
 const data = [
@@ -18,6 +20,15 @@ const data = [
   {
     id: 2,
     category: "frontend",
+    image: Image6,
+    title: "Play Dead(frontend)",
+    desc: "Solo timed challenge with E2E Cypress test suite.  Learn and implement Spotify OAuth and Spotify embedded player for randomized Albums. **NOTE- Due to Spotify developer terms of service, the deployed application will not be fully functionial unless your spotify account email has been added to the dashboard**",
+    demo: "https://play-dead.vercel.app/#",
+    github: "https://github.com/Crpearce/Play-Dead"
+  },
+  {
+    id: 3,
+    category: "frontend",
     image: Image2,
     title: "Rancid Tomatillos(frontend)",
     desc: "My first paired project in React.  This was a 1 week challenge to complete with an assigned partner.  ",
@@ -25,7 +36,7 @@ const data = [
     github: "https://github.com/Crpearce/Rancid-Tomatillos/blob/main/README.md",
   },
   {
-    id: 3,
+    id: 4,
     category: "frontend / backend",
     image: Image3,
     title: "Paw Paths (frontend/backend)",
@@ -34,7 +45,7 @@ const data = [
     github: "https://github.com/Crpearce/Paw-Paths",
   },
   {
-    id: 4,
+    id: 5,
     category: "frontend",
     image: Image4,
     title: "News Reader Challenge (frontend/backend)",
@@ -43,7 +54,7 @@ const data = [
     github: "https://github.com/Crpearce/ny-times-challenge"
   },
   {
-    id: 5,
+    id: 6,
     category: "frontend / backend",
     image: Image5,
     title: "Squeaker (frontend/backend)",
