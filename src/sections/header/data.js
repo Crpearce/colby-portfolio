@@ -1,7 +1,7 @@
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { MdComputer } from "react-icons/md";
-import { GiSamuraiHelmet } from "react-icons/gi"
+import { GiBroadsword } from "react-icons/gi"
 import hawaii from "../../assets/hawaii.jpg";
 import fam from "../../assets/fam.jpg";
 import crater from "../../assets/crater.jpg";
@@ -24,7 +24,7 @@ export const socials = [
   {
     id: 4,
     link: "https://www.codewars.com/users/Crpearce",
-    icon: <GiSamuraiHelmet />,
+    icon: <GiBroadsword />,
   },
 ];
 
