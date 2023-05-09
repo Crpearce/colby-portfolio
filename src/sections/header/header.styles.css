@@ -18,6 +18,7 @@ header {
 .intro {
     color: var(--color-text);
 }
+
 .header-profile {
     width: 18rem;
     height: 22rem;
